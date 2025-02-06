@@ -1,0 +1,15 @@
+.item {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    gap: .5rem;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.delete {
+    background-color: var(--danger-color);
+}
